@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+   <div class="warpper">
+   	<h2>Simple Calculator</h2>
+   	  <input type="text" name="num-one" id="num-one" placeholder="Num 1">
+   	  <input type="text" name="num-two" id="num-two" placeholder="Num 2">
+
+   	 <select id="dropdown">
+   	 	 <option id="box1" value="add">+</option>
+   	 	 <option id="box2" value="subtract">-</option>
+   	 	 <option id="box3" value="multuply">*</option>
+   	 	 <option id="box4" value="division">/</option>
+   	 </select>
+
+   	 <br><br>
+   	 <button type="button" onclick="resvalue()">Calculate</button>
+
+   	 <h1 id="resultArea"></h1>
+
+   </div>
+
+
+   <script src="calculator.js"></script>
+</body>
+</html>

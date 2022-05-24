@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="formvalidation.css">
+	<script src="https://kit.fontawesome.com/a626d7bc18.js" crossorigin="anonymous"></script>  
+	<title>Sing-Up Form</title>
+</head>
+<body>
+	<div class="container">
+		<form id="form">
+			<h2>sing-up</h2>
+  
+             <!-- username input here -->
+
+			<div class="txt_field">
+				<label for="username">Username</label>
+				<input type="text" name="username" id="username" placeholder=" " />
+				<i class="fa-solid fa-circle-check success_icon"></i>
+				<i class="fa-solid fa-circle-exclamation failure_icon"></i>
+				<div class="error"></div> 
+				
+			</div>
+			  <!-- email input here -->
+
+			<div class="txt_field">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email" placeholder=" " />
+				<i class="fa-solid fa-circle-check success_icon"></i>
+				<i class="fa-solid fa-circle-exclamation failure_icon"></i>
+				<div class="error"></div>
+
+			</div>
+			  <!-- phone input here -->
+
+			<div class="txt_field">
+				<label for="phone">Phone</label>
+				<input type="text" name="phone" id="phone" placeholder=" " />
+				<i class="fa-solid fa-circle-check success_icon"></i>
+				<i class="fa-solid fa-circle-exclamation failure_icon"></i>
+				<div class="error"></div>
+			</div>
+			  <!-- password input here -->
+
+			<div class="txt_field">
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" placeholder=" " />
+				<i class="fa-solid fa-circle-check success_icon"></i>
+				<i class="fa-solid fa-circle-exclamation failure_icon"></i>
+				<div class="error"></div>
+			</div>
+			<button type="submit">SUBMIT</button>
+		</form>
+	</div>
+
+
+
+
+
+
+<script src="formvalidation.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+
+	background: #ee4477;
+}
+
+.warpper{
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #262626;
+	padding: 50px;
+	color: #fff;
+	text-align: center;
+}
+.warpper h2{
+	text-transform: uppercase;
+	font-family: poppins;
+	margin-bottom: 10%;
+}
+input[type="text"]{
+	height: 35px;
+	font-size: 22px;
+
+}
+input{
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+#num-two{
+	margin-top: 5px;
+	margin-left: 45px;
+}
+#dropdown{
+	position: relative;
+	left: 5px;
+	bottom: 45px;
+	outline: none;
+	width: 40px;
+	height: 35px;
+}
+button{
+	outline: none;
+	background: #ee4477;
+	border: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: poppins;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
